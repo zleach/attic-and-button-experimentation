@@ -1,0 +1,23 @@
+{
+	"account_id": 2036520223,
+	"confidence_threshold": 0.9,
+	"created": "2018-07-10T23:00:05.399020Z",
+	"description": "A demo retail site",
+	"id": 11075240544,
+	"is_classic": false,
+	"last_modified": "2018-07-20T18:02:24.897820Z",
+	"name": "Attic and Button",
+	"platform": "web",
+	"sdks": [],
+	"status": "active",
+	"web_snippet": {
+		"code_revision": 150,
+		"enable_force_variation": false,
+		"exclude_disabled_experiments": false,
+		"exclude_names": true,
+		"include_jquery": false,
+		"ip_anonymization": false,
+		"js_file_size": 81762,
+		"library": "none"
+	}
+}

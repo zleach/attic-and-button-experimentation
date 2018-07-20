@@ -1,0 +1,37 @@
+.optly-rebrand-wrapper {
+    position: fixed;
+    z-index: 9999;
+    background-color: white;
+    right: 120px;
+    background-color: #F7F7F7;
+    border: 1px solid #f0f0f0;
+    border-top: 0px;
+    transition: all .3s ease-in-out;
+    transform: translate(0px,-100%);
+}
+.optly-rebrand-wrapper:hover {
+    transform: translate(0px,0px);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.06), 0 3px 6px rgba(0,0,0,0.13);
+}
+.optly-rebrand-wrapper:hover .hang-tab {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.06), 0 3px 6px rgba(0,0,0,0.13);
+}
+
+
+.hang-tab {
+    transition: all .3s ease-in-out;
+    font-size:11px;
+    font-weight: bold;
+    color: #999;
+    background-color: #F7F7F7;
+    height: 24px;
+    padding: 0px 10px;
+    position: absolute;
+    right: 20px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    line-height: 2.2em;
+    margin-top: 1px;
+    border: 1px solid #f0f0f0;
+    border-top: none;
+}
